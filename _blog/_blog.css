@@ -1,0 +1,99 @@
+/* CSS declarations go here */
+.navbar-height{
+	line-height: 50px;
+}
+.navbar{
+	border: 0;
+}
+
+.titlePost{
+	margin-left: -15px;
+}
+
+.closedPost{
+	max-height: 250px;
+	overflow: hidden;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+81,000000+100,111111+100,2b2b2b+100,131313+100,111111+100 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+81,969696+92,5e5e5e+100&1+0,0.81+100 */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0.85) 81%, rgba(150,150,150,0.83) 92%, rgba(94,94,94,0.81) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.85) 81%,rgba(150,150,150,0.83) 92%,rgba(94,94,94,0.81) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.85) 81%,rgba(150,150,150,0.83) 92%,rgba(94,94,94,0.81) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#cf5e5e5e',GradientType=0 ); /* IE6-9 */
+
+}
+.commentform{
+	margin-top: 20px;
+}
+.tags{
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.divParagraph{
+	-webkit-transition: height 2s linear 1s;
+}
+
+.textPtag{
+	text-align: justify;
+}
+
+.post{
+	margin-bottom: 20px;
+}
+
+.postButton{
+	margin-right: 10px
+}
+
+.delete {
+  float: right;
+  font-weight: bold;
+  background: none;
+  font-size: 1em;
+  border: none;
+  position: relative;
+}
+
+.hiddenClass{
+	display: none;
+}
+
+.dateCreated{
+	margin-bottom: 20px;
+    color: gray;
+    font-size: 0.9em;
+    text-align: right;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
+
+.color-choice {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+}
+
+.new-post{
+	background: #4FC3F7;
+
+}
+
+#profilePicAbout{
+	
+}
